@@ -168,6 +168,16 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.btn {
+  color: #FFFFFF;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1.8rem;
+  background: #117a8b;
+  height: 50px;
+  border-radius: 10px;
+}
 #navigation {
   margin: 40px 0 0 0;
   color: #212529;
