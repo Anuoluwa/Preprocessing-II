@@ -1,1 +1,64 @@
 // Navigation Styles here
+
+#navigation {
+    margin: 40px 0 0 0;
+    color: @font-color;
+    border-bottom: 1.5px dashed @navigation-border;
+
+    @media @mobile {
+        margin: 20px 0 0 0;
+        padding: 0 0 15px 0;
+    
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        font-size: 1.6rem;
+
+        @media @mobile {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo{
+            a { 
+                font-size: 1.5rem;
+                color: @font-color;
+            }
+            a:link {
+                text-decoration: none;
+            }
+        }
+         & nav {
+             a { 
+                 font-size: 1.5rem;
+                 margin: 0 30px;
+                 color: @font-color;
+             }
+            & a:link {
+                text-decoration: none;
+                :visited {
+                    text-decoration: none;
+                }
+                :hover {
+                    text-decoration: underline;
+                }
+            }
+            @media @mobile {
+
+                a { 
+                    font-size: 1.5rem;
+                    margin: 0 10px;
+                    color: @font-color;
+                }
+            }
+            }
+    }
+}
+
+@media @mobile {
+    
+}
